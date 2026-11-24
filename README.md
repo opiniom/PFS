@@ -27,7 +27,7 @@
 
 ## 문서 및 산출물
 - 프로젝트 기획서: [docs/PLAN.md](docs/PLAN.md)
-- 중간 발표 자료(PPT): `docs/presentation/` *(제작 중)*
+- 중간 발표 자료(PPT): [docs/presentation/PNS_중간발표.pptx](docs/presentation/PNS_중간발표.pptx)
 
 ## 팀원 (동명대학교 인공지능응용학과)
 - **변의겸**: Backend Core, DB/JPA 설계, Spring Security 인증, AI 목표 시뮬레이터 & 과소비 잔소리 연동

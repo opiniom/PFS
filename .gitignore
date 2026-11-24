@@ -29,3 +29,6 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
+
+# PPT Master intermediate workspace (final exported PPTX lives in docs/presentation/)
+projects/
