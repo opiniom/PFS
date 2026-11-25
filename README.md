@@ -1,7 +1,7 @@
-# PNS (Personal Net-worth & Spending)
+# PFS (Personal Financial Statement)
 
 **동명대학교 인공지능응용학과** Java 웹 프로그래밍 기말 프로젝트로 개발 예정인 **AI 목표 코칭 기반 반응형 웹 가계부 서비스**입니다.  
-가계부의 모든 기본 기능을 PC·모바일 반응형 웹으로 제공하며, **목표(금액·차·건물) 및 기간(10개월·1년·10년) 기반 AI 달성 가능성·월 저축액 플래너**와 **실시간 AI 과소비 잔소리** 기능을 핵심 차별점으로 제공합니다.
+가계부의 모든 기본 기능을 PC·모바일 반응형 웹으로 제공하며, **목표(금액·차·건물) 및 기간(10개월·1년·10년) 기반 AI 달성 가능성·월 저축액 플래너**와 **실시간 AI 과소비 잔소리**, **지정 시간 일일 정산 & 미정산 이월 시스템**을 핵심 차별점으로 제공합니다.
 
 > 현재 **기획 및 중간 발표 준비 단계**입니다. 실제 구현 코드는 중간 발표 이후 순차적으로 업로드됩니다.
 
@@ -23,12 +23,12 @@
 - **AI Integration**: LLM API (Gemini API 등) + Java 재무 계산 하이브리드 엔진
 - **Frontend**: Thymeleaf, HTML5, CSS3, JavaScript (ES6+), Bootstrap 5, Chart.js
 - **Database**: H2 (개발용) / MySQL 8.0 (시연·운영용)
-- **Build & Tools**: Gradle, Git & GitHub
+- **Build & Tools**: Gradle, Git & GitHub (`https://github.com/opiniom/PFS`)
 
 ## 문서 및 산출물
 - 프로젝트 기획서: [docs/PLAN.md](docs/PLAN.md)
-- 중간 발표 자료(PPT): [docs/presentation/PNS_중간발표.pptx](docs/presentation/PNS_중간발표.pptx)
+- 중간 발표 자료(PPT): [docs/presentation/PFS_중간발표.pptx](docs/presentation/PFS_중간발표.pptx)
 
 ## 팀원 (동명대학교 인공지능응용학과)
-- **변의겸**: Backend Core, DB/JPA 설계, Spring Security 인증, AI 목표 시뮬레이터 & 과소비 잔소리 연동
-- **차승제**: 반응형 UI/UX (Bootstrap 5 + Thymeleaf), 수입·지출/고정지출 CRUD, 캘린더, Chart.js 통계 시각화
+- **변의겸**: Backend Core, DB/JPA 설계, Spring Security 인증, 일일 정산·이월 로직, AI 목표 시뮬레이터 & 과소비 잔소리 연동
+- **차승제**: 반응형 UI/UX (Bootstrap 5 + Thymeleaf), 수입·지출/고정지출 CRUD, 캘린더, 일일 정산 UI, Chart.js 통계 시각화
