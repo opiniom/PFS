@@ -1,11 +1,11 @@
 # Java / Gradle / Spring Boot
 .gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
 out/
 *.class
 *.jar
 *.war
+!gradle/wrapper/gradle-wrapper.jar
 
 # IDE
 .idea/
